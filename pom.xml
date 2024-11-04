@@ -65,7 +65,7 @@ under the License.
 		<junit.version>4.13.2</junit.version>
 		<storm-client.version>2.6.2</storm-client.version>
 		<jackson.version>2.15.2</jackson.version>
-		<tika.version>2.9.1</tika.version>
+		<tika.version>3.0.0</tika.version>
 		<mockito.version>5.10.0</mockito.version>
 		<jetbrains.annotations.version>24.1.0</jetbrains.annotations.version>
 		<log4j2.version>2.23.0</log4j2.version>
@@ -484,13 +484,6 @@ under the License.
 				<version>${testcontainers.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
-			</dependency>
-
-            <!-- Necessary until https://github.com/apache/storm/pull/3626 -->
-			<dependency>
-				<groupId>commons-io</groupId>
-				<artifactId>commons-io</artifactId>
-				<version>2.11.0</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
